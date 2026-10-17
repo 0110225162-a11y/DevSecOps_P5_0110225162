@@ -14,7 +14,7 @@
    ```bash
    npm install
 
-   ## 4. Overview Pipeline CI/CD DevSecOps
+## 4. Overview Pipeline CI/CD DevSecOps
 Pipeline diimplementasikan secara otomatis menggunakan **GitHub Actions** melalui file konfigurasi `.github/workflows/devsecops.yml` dengan alur kerja :
 - **Triggers**: Terpemicu otomatis setiap kali ada aktivitas `push` ke branch `main` atau pembuatan `pull_request` ke branch `main`.
 - **Job 1 (`build`)**: Berjalan di runner `ubuntu-latest` untuk mengunduh pustaka dependensi (`npm install`) dan mengeksekusi pengujian unit otomatis (`npm test`).
